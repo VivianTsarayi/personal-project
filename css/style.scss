@@ -1,0 +1,579 @@
+/* scss reset */
+*{margin: 0;
+padding: 0;}
+/* end of sccs reset */
+body{
+   
+    overflow-x: hidden;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0,0,0);
+    position: fixed;
+  }
+  
+  .company-name {
+    margin-right: auto;
+    font-weight: bold;
+    color: rgba(255,255,255);
+    margin-left: 40px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 10px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color:rgba(255,255,255);
+    margin-right: 40px;
+    margin-top: 50px;
+    font-family: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: rgba(222,184,135);
+  }
+
+
+
+
+
+
+
+
+
+.home{
+    height: 90vh;
+    background-image:url(../image/pexels-moose-photos-170195-1037995.jpg) ;
+    background-size: cover;
+    
+    
+    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 170px;
+    
+
+    h1{
+        font-size: 50px;
+        margin-left: 80px;
+        color: rgba(0,0,0);
+        font-family: bold;
+    }
+
+    p{
+        font-size: 18px;
+        color: rgba(0,0,0);
+        margin-left: 80px;
+        margin-bottom: 70px;
+        font-family: medium;
+    }
+    button{
+        height: 45px;
+        width: 120px;
+        background-color: rgba(0,0,0);
+        border-radius: 20px;
+        color: rgba(255,255,255);
+        font-size: 16px;
+        margin-left: 80px;
+    }
+
+}
+
+.about{
+    height: 60vh;
+    background-color: rgba(255,255,255);
+    padding-top: 45px;
+ h2{
+    font-size: 35px;
+    color: rgba(0,0,0);
+    margin-bottom: 50px;
+    font-family: bold;
+ }
+ p{
+    font-size: 16px;
+    color: rgba(0,0,0);
+    font-family: medium;
+ }
+ 
+
+}
+
+.services{
+    height: 100vh;
+    background-color:  rgba(255,255,255);
+ 
+    h4{
+        font-family: bold;
+        margin-top: 25px;
+    }
+
+    p{
+        font-family: medium;
+        margin-top: 25px;
+    }
+    button{
+        height: 45px;
+        width: 120px;
+        background-color: rgba(0,0,0);
+        border-radius: 20px;
+        color: rgba(255,255,255);
+        font-size: 16px;
+        margin-top: 25px;
+    
+    }
+}
+
+.reviews{
+    height: 90vh;
+    background-color: rgba(222,184,135);
+    padding-top: 90px;
+
+    h2{
+        font-size: 35px;
+        color: rgba(0,0,0);
+        margin-bottom: 50px;
+        font-family: bold;
+       
+    }
+    .p-1{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 30%;
+        
+    }
+    .p-2{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 23%;
+    }
+    .p-3{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 30%; 
+    }
+    p{
+        font-family: bold;
+        margin-top: 25px;
+        
+    }
+}
+
+.getaway{
+    height: 100vh;
+    background-color: rgba(255,255,255);
+    padding-top: 40px;
+
+    h2{
+        font-size: 35px;
+        font-family: bold;
+        margin-bottom: 25px;
+    }
+
+    
+    .col img{
+        margin-top: 50px;
+    }
+h3{
+    font-family: bold;
+    margin-bottom: 5px;
+    margin-left: 10px;
+  font-size: 18px;
+}
+  
+
+  p{
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-family: regular;
+    margin-left: 10px;
+    
+  }
+
+  
+  
+}
+
+.sign-up{
+    height: 90vh;
+    background-image: url(../image/lakess\ img.jpg);
+    background-size: cover;
+    padding-top: 110px;
+
+    h2{
+        font-size: 35px;
+        color: rgba(0,0,0);
+        margin-bottom: 18px;
+        margin-left:150px;
+        font-family: bold;
+    }
+    p{
+        font-size: 16px;
+        color: rgba(0,0,0);
+        margin-bottom: 80px;
+        margin-left: 500px;
+        font-family: medium;
+
+    }
+ .form-group{
+    margin-left: 400px;
+    height: 80px;
+    
+ }
+
+ input{
+    height: 60px;
+ }
+
+ button{
+    margin-top: 50px;
+    margin-left: 550px;
+    height: 45px;
+    width: 120px;
+    background-color: rgba(0,0,0);
+    border-radius: 20px;
+    color: rgba(255,255,255);
+    font-size: 16px;
+
+ }
+    
+}
+
+
+.footer1{
+    height: 20vh;
+    margin: 75px;
+    background-color: rgba(255,255,255);
+ 
+   .first{display: flex;
+margin-bottom: 150px;
+margin-left: 80px;
+   }
+ 
+
+
+   h1{
+    font-size: 50px;
+    font-family: bold;
+   }
+}
+
+.footer2{
+    height: 30vh;
+    background-color: rgba(222,184,135);
+    padding-top: 30px;
+
+ 
+ #icon1{
+    margin-top: 30px;
+    
+ }
+
+ #icon2{
+    margin-top: 30px;
+    margin-left: 25px;
+    
+    
+ }
+}
+
+
+
+/* media queries */
+
+/* ipad mini */
+/* hero */
+@media (max-width:768px){
+   
+
+   .home{
+    height: 60vh;
+   }
+  .services{
+    height: 80vh;
+  }
+
+  .reviews{
+    height: 60vh;
+
+    .p-1{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 50%;
+        
+    }
+    .p-2{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 45%;
+        
+    }
+    .p-3{
+        background-color: rgba(255,255,255);
+        border-radius: none;
+        height: 50%;
+        
+    }
+  }
+
+  .getaway{
+    height: 55vh;
+  }
+
+  .sign-up{
+    height: 55vh;
+    p{
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+    .form-group{
+        margin-left: 150px;
+        height: 80px;
+        
+     }
+    button{margin-left: 250px;
+    }
+  }
+  .footer1 {
+    height: 20vh;
+    margin: 50px;
+    background-color: rgba(255, 255, 255);
+    padding-top: 50px;
+  }
+
+  .footer1 .first {
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 55px;
+  }
+
+  .footer1 h1 {
+    font-size: 30px;
+    font-family: bold;
+  }
+}
+/* end of ipad mini*/
+
+@media only screen and (max-width: 414px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    position: fixed;
+    height: 60px; 
+  }
+
+  .company-name {
+    margin-right: auto;
+    font-weight: bold;
+    color: rgba(255, 255, 255);
+    margin-left: 20px; 
+    font-size: 16px; 
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255);
+    margin-right: 20px;
+    margin-top: 0; 
+    font-size: 14px; 
+  }
+
+  .nav-links li a:hover {
+    color: rgba(222, 184, 135);
+  }
+
+  .home {
+    height: 60vh; 
+    background-image: url(../image/pexels-moose-photos-170195-1037995.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px; 
+  }
+
+  .home h1 {
+    font-size: 32px; 
+    margin-left: 20px; 
+  }
+
+  .home p {
+    font-size: 14px; 
+    margin-left: 20px; 
+    margin-bottom: 40px; 
+  }
+
+  .home button {
+    height: 40px; 
+    width: 100px; 
+    border-radius: 15px; 
+    font-size: 14px; 
+    margin-left: 20px; 
+  }
+
+  .about {
+    height: 70vh; 
+    background-color: rgba(255, 255, 255);
+    padding-top: 30px; 
+  }
+
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 30px; 
+  }
+
+  .about p {
+    font-size: 14px; 
+  }
+  .services {
+    height: 90vh; 
+    background-color: rgba(255, 255, 255);
+  }
+
+  .services h4 {
+    font-family: bold;
+    margin-top: 20px;
+    font-size: 18px; 
+  }
+
+  .services p {
+    font-family: medium;
+    margin-top: 15px;
+    font-size: 14px; 
+  }
+
+  .services button {
+    height: 40px; 
+    width: 100px;
+    border-radius: 15px; 
+    font-size: 14px; 
+    margin-top: 20px; 
+  }
+
+  .reviews {
+    height: 45vh; 
+    background-color: rgba(222, 184, 135);
+    padding-top: 50px; 
+  }
+
+  .reviews h2 {
+    font-size: 24px; 
+    margin-bottom: 30px; 
+  }
+
+  .reviews .p-1,
+  .reviews .p-2,
+  .reviews .p-3 {
+    background-color: rgba(255, 255, 255);
+    border-radius: none;
+    height: 60%; 
+  }
+
+  .reviews p {
+    font-family: medium;
+    margin-top: 10px; 
+    font-size: 12px; 
+  }
+
+  .getaway{
+    height: 60vh;
+  }
+
+  .sign-up {
+    height: 50vh; 
+    background-image: url(../image/lakess\ img.jpg);
+    background-size: cover;
+    padding-top: 50px;
+  }
+
+  .sign-up h2 {
+    font-size: 24px; 
+    margin-bottom: 15px;
+    margin-left: 20px; 
+  }
+
+  .sign-up p {
+    font-size: 14px; 
+    margin-bottom: 40px; 
+    margin-left: 20px; 
+  }
+
+  .sign-up .form-group {
+    margin-left: 20px;
+    height: 60px; 
+  }
+
+  .sign-up input {
+    height: 50px; 
+  }
+
+  .sign-up button {
+    margin-top: 30px; 
+    margin-left: 20px; 
+    height: 40px; 
+    width: 100px; 
+    border-radius: 15px; 
+    font-size: 14px; 
+  }
+
+  .footer1 {
+    height: 30vh;
+    margin: 30px; 
+    background-color: rgba(255, 255, 255);
+  }
+
+  .footer1 .first {
+    display: flex;
+    margin-bottom: 80px; 
+    margin-left: 20px; 
+  }
+
+  .footer1 h1 {
+    font-size: 16px;
+  }
+  .footer2 {
+    height: 30vh; 
+    background-color: rgba(222, 184, 135);
+    padding-top: 20px; 
+  }
+h2{
+  font-size: 10px;
+}
+  .footer2 #icon1 {
+    margin-top: 20px;
+  }
+
+  .footer2 #icon2 {
+    margin-top: 20px; 
+    margin-left: 5px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
